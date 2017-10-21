@@ -13,3 +13,59 @@
  *= require_tree .
  *= require_self
  */
+html {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+    color: Red;
+    border: solid 5px;
+}
+
+.pomodoro-estimate {
+    font-weight: bold;
+    color: #F44336;
+    background-color: #343434;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+}
+#add-new-todo-button {
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    outline: none;
+    border-style: none;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px #90A4AE;
+    display: block;
+    margin-top: 10px;
+    background-color: red;
+    padding: 10px;
+}
+#add-new-todo-button:hover {
+    background-color: #05FF93;
+    cursor: pointer;
+}
+li:hover {
+    background-color: Blue;
+    color: White;
+    cursor: pointer;
+}
+a:visited {
+    color: #05FF93;
+}
+a {
+    text-decoration: none;
+    color: #05FF93;
+}
+body {
+    background-color: #36454F;
+}
+.completed-todo {
+    text-decoration: line-through;
+    color: #05FF93;
+}
+body {
+    background-image:url(https://hdwallsource.com/img/2014/4/colorful-scenery-18694-19170-hd-wallpapers.jpg);
+}
