@@ -60,7 +60,7 @@ a {
     color: #05FF93;
 }
 body {
-    background-color: #36454F;
+    color: #05FF93;
 }
 .completed-todo {
     text-decoration: line-through;
@@ -68,4 +68,7 @@ body {
 }
 body {
     background-image:url(https://hdwallsource.com/img/2014/4/colorful-scenery-18694-19170-hd-wallpapers.jpg);
+}
+.Blue:hover {
+    background-color: Blue;
 }
