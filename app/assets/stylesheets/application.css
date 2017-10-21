@@ -47,15 +47,14 @@ h1 {
     background-color: #05FF93;
     cursor: pointer;
 }
-li:hover {
-    background-color: Blue;
-    color: White;
+a:hover {
+    color: white;
     cursor: pointer;
 }
 a:visited {
     color: #05FF93;
 }
-a {
+.Blue {
     text-decoration: none;
     color: #05FF93;
 }
@@ -70,5 +69,14 @@ body {
     background-image:url(https://hdwallsource.com/img/2014/4/colorful-scenery-18694-19170-hd-wallpapers.jpg);
 }
 .Blue:hover {
+    background-color: Blue;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+li:hover {
     background-color: Blue;
 }
